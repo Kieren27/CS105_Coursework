@@ -8,7 +8,10 @@ package edu.sbcc.cs105;
 public class GaussianEaster {
 	private int m;
 	private int d;
-
+/**
+ * 
+ * @param y as user input that will be used to calculate m & d
+ */
 	public GaussianEaster(int y) {
 		int A = y % 19; // location of the year in the Metonic cycle
 		int B = y % 4; // number of leap days according to Julian calendar
@@ -20,10 +23,10 @@ public class GaussianEaster {
 
 		double N = (4 + P - (P / 4)) % 7;
 		double D = (19*A + M) % 30;
-		
+
 		double E = (N + 2*B + 4*C + 6*D) % 7;
 		int days = (int) (22 + D + E);
-
+		
 		if ((D == 29) && (E == 6)) { // April 19
 			m = 4;
 			d = 19;
