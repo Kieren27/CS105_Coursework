@@ -46,11 +46,17 @@ public class GaussianEaster {
 			   }
 		}   
 	}
-
+/**
+ * 
+ * @return month as m
+ */
 	public int getM() {
 		return m;
 	}
-
+/**
+ * 
+ * @return day as d
+ */
 	public int getD() {
 		return d;
 	}
