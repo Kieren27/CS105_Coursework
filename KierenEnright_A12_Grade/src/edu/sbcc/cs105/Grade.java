@@ -9,8 +9,7 @@ public class Grade {
  * @param grade takes user's input and assigns value to userGrade, forces string to uppercase
  */
     public void setGrade(String grade) {
-        this.userGrade = grade;
-        userGrade = userGrade.toUpperCase();
+        this.userGrade = grade.toUpperCase();
     }
 /**
  * 
