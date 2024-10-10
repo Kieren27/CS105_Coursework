@@ -16,7 +16,7 @@ public class Program {
         if (bi.isBinary()) {
             System.out.println(input + " is a valid binary number.");
         } else {
-            System.out.println(input + " is a valid binary number.");
+            System.out.println(input + " is NOT a valid binary number.");
         }
 
         sc.close();
