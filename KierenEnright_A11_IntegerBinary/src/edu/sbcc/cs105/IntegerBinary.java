@@ -12,6 +12,7 @@ public class IntegerBinary {
         this.userInput = str;
     }
 /**
+ * userInput gets .split() in order to loop through each character to check if they meet the correct conditions in the branches 
  * 
  * @return false if userInput is either empty or characters within string do not equal "0" or "1"
  */
