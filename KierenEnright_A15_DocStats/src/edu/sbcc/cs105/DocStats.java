@@ -1,6 +1,7 @@
 package edu.sbcc.cs105;
 
 import java.io.*;
+import java.util.*;
 
 public class DocStats {
 
