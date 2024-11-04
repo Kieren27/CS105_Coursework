@@ -7,11 +7,14 @@ public class Program {
         TemperatureStats ts = new TemperatureStats();
 
         /**
-         * Line 12 to 18 takes user input to determine how many elements should be added to the array before calculations begin
+         * Takes user input to determine how many elements will be added to the array list
          */
         System.out.println("Input the number of temperatures you would like to add: ");
         int tempAmmount = sc.nextInt();
         
+        /**
+         * Prompts user for a number of temperature inputs (loop iterations based on value of tempAmmount)
+         */
         for (int i = 0; i < tempAmmount; i++) {
             System.out.printf("Input temperature %d: ", i + 1);
             ts.addTemperature(sc.nextDouble());
