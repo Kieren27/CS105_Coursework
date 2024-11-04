@@ -23,10 +23,15 @@ public class DocStats {
 
     public int getNumberOfWords() {
         // TODO return total number of words in the file
+
+        int num = 0;
+        return num;
     }
 
     public int getNumberOfLines() {
         // TODO return total number of lines in the file (hint: you can use .size() of
         // the ArrayList)
+        
+        return fileLines.size();
     }
 }
