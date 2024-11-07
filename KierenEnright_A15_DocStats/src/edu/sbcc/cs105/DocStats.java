@@ -21,17 +21,27 @@ public class DocStats {
         fileScanner.close();
     }
 
+    /**
+     * Loops through each line formatting / counting each string and ignores
+     * whitespace. 
+     * 
+     * @return totalWords
+     */
     public int getNumberOfWords() {
-        // TODO return total number of words in the file
+        int totalWords = 0;
 
-        int num = 0;
-        return num;
+        for (String fileWord : fileLines) {
+            totalWords += fileWord.trim().split("\\s+").length;
+        }
+
+        return totalWords;
     }
 
+    /**
+     * 
+     * @return fileLines.size()
+     */
     public int getNumberOfLines() {
-        // TODO return total number of lines in the file (hint: you can use .size() of
-        // the ArrayList)
-        
         return fileLines.size();
     }
 }
