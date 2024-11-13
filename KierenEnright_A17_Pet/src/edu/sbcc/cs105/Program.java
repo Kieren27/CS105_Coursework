@@ -34,7 +34,6 @@ public class Program {
         myPet.setAge(dogAge);
         myDog.setBreed(dogBreed);
         myPet.printInfo();
-
         System.out.println(myDog.getBreed());
 
         scnr.close();
