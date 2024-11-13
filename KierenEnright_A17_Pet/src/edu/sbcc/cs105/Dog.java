@@ -6,6 +6,10 @@
  */
 package edu.sbcc.cs105;
 
+/**
+ * This is a sublass of the Pet class, and therefore uses the same methods to set
+ * its info with the addtion of being able to set the dog's breed.
+ */
 public class Dog extends Pet {
     private String dogBreed;
 
