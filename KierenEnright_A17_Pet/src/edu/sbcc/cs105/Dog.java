@@ -18,7 +18,7 @@ public class Dog extends Pet {
      * @param userBreed takes user input to assign to instance variable (dogBreed)
      */
     public void setBreed(String userBreed) {
-        this.dogBreed = userBreed;
+        dogBreed = userBreed;
     }
 
     /**
