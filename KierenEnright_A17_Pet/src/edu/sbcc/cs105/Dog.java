@@ -26,6 +26,6 @@ public class Dog extends Pet {
      * @return previouly assigned dogBreed
      */
     public String getBreed() {
-        return ("   Breed: " + dogBreed);
+        return dogBreed;
     }
 }

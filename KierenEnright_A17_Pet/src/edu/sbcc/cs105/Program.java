@@ -40,7 +40,7 @@ public class Program {
         myDog.setAge(dogAge);
         myDog.setBreed(dogBreed);
         myDog.printInfo();
-        System.out.println(myDog.getBreed());
+        System.out.println("   Breed: " + myDog.getBreed());
 
         scnr.close();
     }
