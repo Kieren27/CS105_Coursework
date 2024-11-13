@@ -1,3 +1,9 @@
+/**
+ * CS 105 Theory and Practice I
+ * CRN: 38065
+ * Assignment: Exercise 17
+ * @author Kieren Enright
+ */
 package edu.sbcc.cs105;
 
 public class Pet {

@@ -1,3 +1,9 @@
+/**
+ * CS 105 Theory and Practice I
+ * CRN: 38065
+ * Assignment: Exercise 17
+ * @author Kieren Enright
+ */
 package edu.sbcc.cs105;
 
 import java.util.Scanner;
@@ -30,10 +36,10 @@ public class Program {
         myPet.printInfo();
 
         // Set info for second pet (Dog)
-        myPet.setName(dogName);
-        myPet.setAge(dogAge);
+        myDog.setName(dogName);
+        myDog.setAge(dogAge);
         myDog.setBreed(dogBreed);
-        myPet.printInfo();
+        myDog.printInfo();
         System.out.println(myDog.getBreed());
 
         scnr.close();
