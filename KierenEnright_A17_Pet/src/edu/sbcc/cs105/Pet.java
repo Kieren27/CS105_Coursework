@@ -4,26 +4,26 @@ public class Pet {
 
     protected String name;
     protected int age;
- 
+
     public void setName(String userName) {
-       name = userName;
+        name = userName;
     }
- 
+
     public String getName() {
-       return name;
+        return name;
     }
- 
+
     public void setAge(int userAge) {
-       age = userAge;
+        age = userAge;
     }
- 
+
     public int getAge() {
-       return age;
+        return age;
     }
- 
+
     public void printInfo() {
-       System.out.println("Pet Information: ");
-       System.out.println("   Name: " + name);
-       System.out.println("   Age: " + age);
+        System.out.println("Pet Information: ");
+        System.out.println("   Name: " + name);
+        System.out.println("   Age: " + age);
     }
- }
+}
