@@ -3,7 +3,7 @@ package edu.sbcc.cs105;
 import java.util.ArrayList;
 
 public class Inventory {
-    protected ArrayList<GenericItem> inventory = new ArrayList<>();
+    protected ArrayList<GenericItem> Inventory = new ArrayList<>();
 
     public void addItemToInventory(GenericItem item) {
 
