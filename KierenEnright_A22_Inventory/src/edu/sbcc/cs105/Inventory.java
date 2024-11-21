@@ -8,6 +8,9 @@ package edu.sbcc.cs105;
 
 import java.util.ArrayList;
 
+/**
+ * This class is responsible for storing and displaying every item.
+ */
 public class Inventory {
     protected ArrayList<GenericItem> Inventory = new ArrayList<>(); // Constucts (Inventory) ArrayList to store created items
 
