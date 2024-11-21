@@ -1,5 +1,14 @@
+/**
+ * CS 105 Theory and Practice I
+ * CRN: 38065
+ * Assignment: Exercise22
+ * @author Kieren Enright
+ */
 package edu.sbcc.cs105;
-
+/**
+ * This file was provided as boilerplate for this project on canvas.
+ * More lines can be added to either remove or add more items to Inventory.
+ */
 public class Program {
 
 	public static void main(String[] args) {
@@ -63,6 +72,5 @@ public class Program {
 		inv.addItemToInventory(produceItem2);
 
 		inv.printInventory();
-
 	}
 }
