@@ -8,6 +8,9 @@ package edu.sbcc.cs105;
 
 import java.util.ArrayList;
 
+/**
+ * This class inherits from GenericItem to store Bakery Items
+ */
 public class BakeryItem extends GenericItem {
     private ArrayList<String> ingredients; // Place to store ingredients
 

@@ -6,11 +6,14 @@
  */
 package edu.sbcc.cs105;
 
+/**
+ * Generic class to store all generic items
+ */
 public class GenericItem {
 
-    protected String name; // name variable used for all items and all sub-classes
-    protected int qty; // quantity variable used for all items and all sub-classes
-    protected String date; // date variable used for all items and all sub-classes
+    protected String name; // variable used for all items and all sub-classes
+    protected int qty; // variable used for all items and all sub-classes
+    protected String date; // variable used for all items and all sub-classes
 
     /**
      * Sets name for item

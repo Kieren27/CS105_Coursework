@@ -6,6 +6,9 @@
  */
 package edu.sbcc.cs105;
 
+/**
+ * This class inherits from GenericItem to store Produce Items
+ */
 public class ProduceItem extends GenericItem {
     private String vendor; // Instance variable for ProduceItem class
 
