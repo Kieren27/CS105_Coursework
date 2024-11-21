@@ -42,7 +42,7 @@ public class BakeryItem extends GenericItem {
      * Prints each ingredient element from the (ingredients) ArrayList
      */
     public void printItem() {
-        System.out.printf("Item Name: %s - Quantity: %d - Expiration Date: %s", name, qty, date);
+        System.out.printf("\nItem Name: %s - Quantity: %d - Expiration Date: %s", name, qty, date);
         System.out.println("\nIngredients: ");
         for (String ingredient : ingredients) {
             System.out.println("    " + ingredient);
