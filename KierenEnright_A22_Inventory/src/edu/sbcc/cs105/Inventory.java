@@ -77,7 +77,7 @@ public class Inventory {
 
         /**
          * Checks if each item within the (Inventory) ArrayList is NOT an instance of BakeryItem or ProduceItem.
-         * If item is not an insance of the aformentioned classes, it gets printed.
+         * If item is not an insance of the aforementioned classes, it gets printed.
          */
         System.out.println("\n--------- Generic Items ---------");
         for (GenericItem item : Inventory) {
