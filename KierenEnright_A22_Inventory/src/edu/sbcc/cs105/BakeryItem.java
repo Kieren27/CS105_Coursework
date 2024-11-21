@@ -15,7 +15,7 @@ public class BakeryItem extends GenericItem {
      * Constructor for (ingredients) ArrayList
      */
     public BakeryItem() {
-        ingredients = new ArrayList<>(); 
+        ingredients = new ArrayList<>();
     }
 
     /**

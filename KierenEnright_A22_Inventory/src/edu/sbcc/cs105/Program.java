@@ -5,6 +5,7 @@
  * @author Kieren Enright
  */
 package edu.sbcc.cs105;
+
 /**
  * This file was provided as boilerplate for this project on canvas.
  * More lines can be added to either remove or add more items to Inventory.
