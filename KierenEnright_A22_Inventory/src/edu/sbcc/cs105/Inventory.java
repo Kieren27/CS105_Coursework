@@ -47,14 +47,14 @@ public class Inventory {
          * If false, an error message will be printed instead.
          */
         System.out.println("\n--------- Bakery Items ---------");
-        boolean hasBakeryItems = false;
+        boolean isBakeryItem = false;
         for (GenericItem item : Inventory) {
             if (item instanceof BakeryItem) {
-                hasBakeryItems = true;
+                isBakeryItem = true;
                 ((BakeryItem) item).printItem();
             }
         }
-        if (!hasBakeryItems) {
+        if (!isBakeryItem) {
             System.out.println("There are no bakery items.");
         }
 
@@ -64,14 +64,14 @@ public class Inventory {
          * If false, an error message will be printed instead.
          */
         System.out.println("\n--------- Produce Items ---------");
-        boolean hasProduceItems = false;
+        boolean isProduceItem = false;
         for (GenericItem item : Inventory) {
             if (item instanceof ProduceItem) {
-                hasProduceItems = true;
+                isProduceItem = true;
                 ((ProduceItem) item).printItem();
             }
         }
-        if (!hasProduceItems) {
+        if (!isProduceItem) {
             System.out.println("There are no produce items.");
         }
 
